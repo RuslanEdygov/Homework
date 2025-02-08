@@ -72,7 +72,7 @@ public class Main {
         var rezult5 = rezult4 + 94;
         var rezult6 = hours / rezult5;
         var box16 = ("Если в компании работает " + rezult5 + " человек, то всего " + rezult6 +
-                " часов работы может быть поделено между сотрудниками ");
+                " часов работы может быть поделено между сотрудниками");
         {
             System.out.println(box15);
             System.out.println(box16);
