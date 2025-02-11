@@ -2,112 +2,99 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Задание 1");
         int a = 12566;
+        System.out.println("Значение переменной a с типом int равно " + a);
         byte b = 36;
+        System.out.println("Значение переменной b с типом byte равно " + b);
         short c = 15607;
+        System.out.println("Значение переменной c с типом short равно " + c);
         long d = 7637899;
+        System.out.println("Значение переменной d с типом long равно " + d);
         float e = 7.63789F;
+        System.out.println("Значение переменной e с типом float равно " + e);
         double f = 7.6378969;
-        var box1 = ("Значение переменной a с типом int равно " + a);
-        var box2 = ("Значение переменной b с типом byte равно " + b);
-        var box3 = ("Значение переменной c с типом short равно " + c);
-        var box4 = ("Значение переменной d с типом long равно " + d);
-        var box5 = ("Значение переменной e с типом float равно " + e);
-        var box6 = ("Значение переменной f с типом double равно " + f);
-            System.out.println(box1);
-            System.out.println(box2);
-            System.out.println(box3);
-            System.out.println(box4);
-            System.out.println(box5);
-            System.out.println(box6);
+        System.out.println("Значение переменной f с типом double равно " + f);
         System.out.println("Задание 2");
         double g = 27.12;
+        System.out.println(g);
         long h = 987678965549L;
+        System.out.println(h);
         double i = 27.86;
+        System.out.println(i);
         short j = 569;
+        System.out.println(j);
         short k = -159;
+        System.out.println(k);
         short l = 27897;
+        System.out.println(l);
         byte m = 36;
-            System.out.println(g);
-            System.out.println(h);
-            System.out.println(i);
-            System.out.println(j);
-            System.out.println(k);
-            System.out.println(l);
-            System.out.println(m);
+        System.out.println(m);
         System.out.println("Задание 3");
         byte class1 = 23;
         byte class2 = 27;
         byte class3 = 30;
-        var box7 = ("На каждого ученика рассчитано " + 480/(class1 + class2 + class3) +
+        System.out.println("На каждого ученика рассчитано " + 480 / (class1 + class2 + class3) +
                 " листов бумаги");
-            System.out.println(box7);
         System.out.println("Задание 4");
         byte car = 8;
         int clock = 1;
-        var box8 = (clock*20);
-        var box9 = (clock*60)*24;
-        var box10 = ((clock*60)*24)*3;
-        var box11 = ((clock*60)*24)*30;
-        var box12 = ("За " + box8 + " минут машина произвела" + (car*box8) + " штук бутылок");
-        var box13 = ("За " + box9 + " минут машина произвела" + (car*box9) + " штук бутылок");
-        var box14 = ("За " + box10 + " минут машина произвела" + (car*box10) + " штук бутылок");
-        var box15 = ("За " + box11 + " минут машина произвела" + (car*box11) + " штук бутылок");
-            System.out.println(box12);
-            System.out.println(box13);
-            System.out.println(box14);
-            System.out.println(box15);
+        int minutes1 = (clock * 20);
+        int minutes2 = (clock * 60) * 24;
+        int minutes3 = ((clock * 60) * 24) * 3;
+        int minutes4 = ((clock * 60) * 24) * 30;
+        System.out.println("За 20 минут минут машина произвела " + (car * minutes1) +
+                " штук бутылок");
+        System.out.println("За сутки машина произвела " + (car * minutes2) +
+                " штук бутылок");
+        System.out.println("За 3 дня машина произвела " + (car * minutes3) +
+                " штук бутылок");
+        System.out.println("За 1 месяц машина произвела " + (car * minutes4) +
+                " штук бутылок");
         System.out.println("Задание 5");
         byte repair = 120;
         byte white = 2;
         byte brown = 4;
-        var box16 = (white+brown);
-        var box17 = (repair/box16);
-        var box18 = (box17*white);
-        var box19 = (box17*brown);
-        var box20 = ("В школе,где " + box17 + " классов, нужно " + box18 +
-                " банок белой краски и " + box19 + " банок коричневой краски");
-            System.out.println(box20);
+        int paintsClass = (white + brown);
+        int quantityClass = (repair / paintsClass);
+        int whitePaints = (quantityClass * white);
+        int brownPaints = (quantityClass * brown);
+        System.out.println("В школе,где " + quantityClass + " классов, нужно " + whitePaints +
+                " банок белой краски и " + brownPaints + " банок коричневой краски");
         System.out.println("Задание 6");
         float banana = 80;
         float milk = 105;
         float iceCream = 100;
         float egg = 70;
-        var box21 = ((banana*5)+(milk*2)+(iceCream*2)+(egg*4));
-        var box22 = (box21/1000);
-            System.out.println(box22);
+        System.out.println((banana * 5) + (milk * 2) + (iceCream * 2) + (egg * 4) +
+                " граммов спортзавтрака");
+        System.out.println(((banana * 5) + (milk * 2) + (iceCream * 2) + (egg * 4)) / 1000 +
+                " килограммов спортзавтрака");
         System.out.println("Задание 7");
-        float weight = 7;
-        var box23 = (weight/0.250);
-        var box24 = (weight/0.500);
-        var box25 = (box23-box24)/2;
-        var box26 = ("Если спортсмен будет терять каждый день по 250 грамм в день, то уйдет " +
-                box23 + " дней на похудение");
-        var box27 = ("Если спортсмен будет терять каждый день по 500 грамм в день, то уйдет " +
-                box24 + " дней на похудение");
-        var box28 = ("Потребуется в среднем " + box25 +
+        double weight = 7;
+        System.out.println("Если спортсмен будет терять каждый день по 250 грамм в день, " +
+                "то уйдет " + ((weight / 0.250)) + " дней на похудение");
+        System.out.println("Если спортсмен будет терять каждый день по 250 грамм в день, " +
+                "то уйдет " + ((weight / 0.500)) + " дней на похудение");
+        System.out.println("Потребуется в среднем " + ((weight / 0.250) - (weight / 0.500) / 2) +
                 " дней в среднем чтобы добиться результата");
-            System.out.println(box26);
-            System.out.println(box27);
-            System.out.println(box28);
         System.out.println("Задание 8");
         int salaryMasha = 67760;
         int salaryDenis = 83690;
         int salaryKristina = 76230;
-        var box29 = (salaryMasha + salaryMasha*10/100);
-        var box30 = (salaryDenis + salaryDenis*10/100);
-        var box31 = (salaryKristina + salaryKristina*10/100);
-        var box32 = (box29 - salaryMasha);
-        var box33 = (box30 - salaryDenis);
-        var box34 = (box31 - salaryKristina);
-        var box35 = ("Маша теперь получает " + box29 + " рублей. Годовой доход вырос на " +
-                box32 + " рублей");
-        var box36 = ("Денис теперь получает " + box30 + " рублей. Годовой доход вырос на " +
-                box33 + " рублей");
-        var box37 = ("Кристина теперь получает " + box31 + " рублей. Годовой доход вырос на " +
-                box34 + " рублей");
-            System.out.println(box35);
-            System.out.println(box36);
-            System.out.println(box37);
+        int raisingSalaryMasha = (salaryMasha + salaryMasha * 10 / 100);
+        int raisingSalaryDenis = (salaryDenis + salaryDenis * 10 / 100);
+        int raisingSalaryKristina = (salaryKristina + salaryKristina * 10 / 100);
+        //var box32 = (box29 - salaryMasha);
+        //var box33 = (box30 - salaryDenis);
+        //var box34 = (box31 - salaryKristina);
+        System.out.println("Маша теперь получает " + raisingSalaryMasha + " рублей." +
+                " Годовой доход вырос на " + (raisingSalaryMasha - salaryMasha) + " рублей");
+        System.out.println("Денис теперь получает " + raisingSalaryDenis + " рублей. " +
+                "Годовой доход вырос на " + (raisingSalaryDenis - salaryDenis) + " рублей");
+        System.out.println("Кристина теперь получает " + raisingSalaryKristina + " рублей. " +
+                "Годовой доход вырос на " + (raisingSalaryKristina - salaryKristina) + " рублей");
+        //System.out.println(box35);
+        //System.out.println(box36);
+        //System.out.println(box37);
 
     }
 }
